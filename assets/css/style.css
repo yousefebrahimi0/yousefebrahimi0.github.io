@@ -411,8 +411,8 @@ main {
 }
 
 .contact-info {
-  max-width: calc(100% - 46px);
-  width: calc(100% - 46px);
+  max-width: calc(60% - 46px);
+  width: calc(60% - 46px);
 }
 
 .contact-title {
@@ -424,7 +424,7 @@ main {
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
-  font-size: var(--fs-20);
+  font-size: var(--fs-7);
 }
 
 .contact-info address { font-style: normal; }
