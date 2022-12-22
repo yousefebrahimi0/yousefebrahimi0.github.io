@@ -413,7 +413,7 @@ main {
 
 .contact-item {
   min-width: 100%;
-  display: block;
+  display: grid;
   align-items: center;
   gap: 16px;
 }
