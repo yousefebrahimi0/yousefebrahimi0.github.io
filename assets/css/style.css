@@ -411,8 +411,8 @@ main {
 }
 
 .contact-info {
-  max-width: calc(60% - 46px);
-  width: calc(60% - 46px);
+  max-width: calc(30% - 46px);
+  width: calc(30% - 46px);
 }
 
 .contact-title {
