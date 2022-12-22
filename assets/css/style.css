@@ -189,12 +189,12 @@ article {
 }
 
 .icon-box {
-  position: absolute;
+  position: relative;
   background: var(--border-gradient-onyx);
   width: 30px;
   height: 30px;
   border-radius: 8px;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   font-size: 16px;
