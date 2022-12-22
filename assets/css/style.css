@@ -413,14 +413,14 @@ main {
 
 .contact-item {
   min-width: 100%;
-  display: grid;
+  display: flex;
   align-items: center;
   gap: 16px;
 }
 
 .contact-info {
-  max-width: calc(100% - 46px);
-  width: calc(100% - 46px);
+  max-width: calc(100% - 80px);
+  width: calc(100% - 80px);
 }
 
 .contact-title {
