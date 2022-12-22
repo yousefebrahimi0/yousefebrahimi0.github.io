@@ -411,14 +411,13 @@ main {
 }
 
 .contact-info {
-  max-width: calc(30% - 46px);
-  width: calc(30% - 46px);
+  max-width: calc(100% - 46px);
+  width: calc(100% - 46px);
 }
 
 .contact-title {
-  color: var(--light-gray-70);
+  color: var(--white-2);
   font-size: var(--fs-8);
-  text-transform: uppercase;
   margin-bottom: 2px;
 }
 
