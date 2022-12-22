@@ -4,7 +4,8 @@
 
 
 /**
- * copyright 2022 @codewithsadee
+ * Taken in 2022 from @codewithsadee
+   Modified by @serranopuente
  */
 
 
@@ -85,12 +86,17 @@
   --fs-6: 14px;
   --fs-7: 13px;
   --fs-8: 11px;
+  --fs-9: 9px;
+  --fs-10: 7px;
 
   /* font-weight */
+  --fw-100: 100;
+  --fw-200: 200;
   --fw-300: 300;
   --fw-400: 400;
   --fw-500: 500;
   --fw-600: 600;
+  --fw-700: 700;
 
   /**
    * shadow
@@ -351,6 +357,7 @@ main {
   font-weight: var(--fw-300);
   width: max-content;
   padding: 3px 12px;
+  margin-bottom: 4px;
   border-radius: 8px;
 }
 
