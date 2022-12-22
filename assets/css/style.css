@@ -419,11 +419,12 @@ main {
 }
 
 .contact-info {
-  max-width: calc(100% - 80px);
-  width: calc(100% - 80px);
+  max-width: 100%;
+  width: 100%;
 }
 
 .contact-title {
+  max-width: 100%;
   color: var(--white-2);
   font-size: var(--fs-8);
   margin-bottom: 2px;
