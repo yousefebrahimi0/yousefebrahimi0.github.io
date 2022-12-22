@@ -189,7 +189,7 @@ article {
 }
 
 .icon-box {
-  position: relative;
+  position: absolute;
   background: var(--border-gradient-onyx);
   width: 30px;
   height: 30px;
