@@ -412,21 +412,21 @@ main {
 }
 
 .contact-item {
-  width: 100%;
+  min-width: 100%;
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
 .contact-info {
-  max-width: 100%;
-  width: 100%;
+  max-width: calc(100% - 46px);
+  width: calc(100% - 46px);
 }
 
 .contact-title {
-  width: 100%;
-  color: var(--white-2);
+  color: var(--light-gray-70);
   font-size: var(--fs-8);
+  text-transform: uppercase;
   margin-bottom: 2px;
 }
 
