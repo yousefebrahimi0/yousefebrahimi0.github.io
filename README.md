@@ -8,12 +8,9 @@ vCard is a fully responsive personal portfolio website, responsive for all devic
 
 ## Interests
 
-- Research fields:
-- Technical interests:
-- Programming languages: 
-
-
-
+- 📈 Research fields: Public Finance | Taxation | Public Policy Evaluation | Inequality | Macroeconomics
+- 🛠️ Technical interests: Micro-Simulation Tools | Micro-Data | Computational Economics | [QuantEcon](https://quantecon.org/) | Machine Learning
+- 👨‍💻 Programming languages: 
 
 ## Contact details
 
