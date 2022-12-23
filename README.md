@@ -4,8 +4,6 @@ I am a Pre-Doctoral PhD Researcher (PhD Candidate in Economics) at [Universitat 
 
 I obtained my MSc in Economics from [University of Mannheim](https://www.vwl.uni-mannheim.de/en/) in 2019 and my Bachelor's degree in Economics from [Universidad Autónoma de Madrid](https://www.uam.es/Economicas/Home.htm?language=en) in 2016.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
-
 ## Interests
 
 - 📈 Research fields: Public Finance | Taxation | Public Policy Evaluation | Inequality | Macroeconomics
