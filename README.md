@@ -17,7 +17,7 @@ I obtained my MSc in Economics from [University of Mannheim](https://www.vwl.uni
 
 ## Research Profiles
 
-[<img src="./assets/icon/scholar.ico" alt="scholar icon" width="20">](https://scholar.google.es/citations?user=dKncLyQAAAAJ&hl=es)  [<img src="./assets/icon/orcid.ico" alt="orcid icon" width="20">](https://orcid.org/0000-0002-5943-3332)   [<img src="./assets/icon/ideas.ico" alt="ideas icon" width="20">](https://ideas.repec.org/f/pse707.html)   [<img src="./assets/icon/webofscience.ico" alt="webofscience icon" width="25">](https://www.webofscience.com/wos/author/record/2296848)  [<img src="./assets/icon/ssrn.ico" alt="ssrn icon" width="20">](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4360579)   [<img src="./assets/icon/bde.ico" alt="bde icon" width="25">](https://repositorio.bde.es/browse?type=author&value=Serrano+Puente%2C+Dar%C3%ADo)
+[<img src="./assets/icon/scholar.ico" alt="scholar icon" width="20"> Google Scholar](https://scholar.google.es/citations?user=dKncLyQAAAAJ&hl=es) | [<img src="./assets/icon/orcid.ico" alt="orcid icon" width="20"> ORCiD](https://orcid.org/0000-0002-5943-3332) | [<img src="./assets/icon/ideas.ico" alt="ideas icon" width="20"> IDEAS](https://ideas.repec.org/f/pse707.html) | [<img src="./assets/icon/webofscience.ico" alt="webofscience icon" width="25"> Web of Science](https://www.webofscience.com/wos/author/record/2296848) | [<img src="./assets/icon/ssrn.ico" alt="ssrn icon" width="20"> SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4360579) | [<img src="./assets/icon/bde.ico" alt="bde icon" width="25"> Banco de España Author's Repository](https://repositorio.bde.es/browse?type=author&value=Serrano+Puente%2C+Dar%C3%ADo)
 
 ## Access my CV
 
