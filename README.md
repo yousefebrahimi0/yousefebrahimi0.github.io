@@ -11,26 +11,8 @@ I obtained my MSc in Economics from [University of Mannheim](https://www.vwl.uni
 - 👨‍💻 Programming languages: [![My Skills](https://skills.thijs.gg/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skills.thijs.gg)
 
 ## Contact details
-<a href="https://twitter.com/darioserranopue" target="_blank" class="social-link">
-              <div class="service-icon-box">
-                <img src="./assets/icon/twitter.ico" alt="twitter icon" width="20">
-              </div>
-</a>
-<a href="https://econtwitter.net/@serranopuente" target="_blank" class="social-link">
-              <div class="service-icon-box">
-                <img src="./assets/icon/mastodon.ico" alt="mastodon icon" width="20">
-              </div>
-</a>       
-<a href="https://www.linkedin.com/in/serranopuente/" target="_blank" class="social-link">
-              <div class="service-icon-box">
-                <img src="./assets/icon/linkedin.ico" alt="linkedin icon" width="20">
-              </div>
-</a>
- <a href="https://github.com/serranopuente" target="_blank" class="social-link">
-              <div class="service-icon-box">
-                <img src="./assets/icon/github.ico" alt="github icon" width="25">
-              </div>
- </a>
+
+<pre> [<img src="./assets/icon/twitter.ico" alt="twitter icon" width="20">](https://twitter.com/darioserranopue)  [<img src="./assets/icon/mastodon.ico" alt="mastodon icon" width="20">](https://econtwitter.net/@serranopuente)   [<img src="./assets/icon/linkedin.ico" alt="linkedin icon" width="20">](https://www.linkedin.com/in/serranopuente/)   [<img src="./assets/icon/github.ico" alt="github icon" width="25">](https://github.com/serranopuente) </pre>
 
 ## Social
 
