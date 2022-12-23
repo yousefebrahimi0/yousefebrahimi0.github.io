@@ -4,6 +4,7 @@ I am a Pre-Doctoral PhD Researcher (PhD Candidate in Economics) at [Universitat 
 
 I obtained my MSc in Economics from [University of Mannheim](https://www.vwl.uni-mannheim.de/en/) in 2019 and my Bachelor's degree in Economics from [Universidad Autónoma de Madrid](https://www.uam.es/Economicas/Home.htm?language=en) in 2016.
 
+Previously: [AIReF](https://www.airef.es/es/) (Public Policy Evaluation Division) |  [CUNEF](https://www.cunef.edu/) (Research Economist at Department of Economics) | [Bank of Spain](https://www.bde.es/bde/en/) (Research Economist at DG Economics, Statistics and Research) | [NERA Economic Consulting](https://www.nera.com/practice-areas/energy.html#tab-4) (Research Associate at Energy Division) | [Management Solutions](https://www.managementsolutions.com/en) (Consultant at Financial Risks Area) | John Deere (Financial Department)
 
 ## Interests
 
@@ -25,6 +26,7 @@ I obtained my MSc in Economics from [University of Mannheim](https://www.vwl.uni
 ## Research Profiles
 
 [<img src="./assets/icon/scholar.ico" alt="scholar icon" width="20"> Google Scholar](https://scholar.google.es/citations?user=dKncLyQAAAAJ&hl=es) | [<img src="./assets/icon/orcid.ico" alt="orcid icon" width="25"> ORCiD](https://orcid.org/0000-0002-5943-3332) | [<img src="./assets/icon/ideas.ico" alt="ideas icon" width="25"> IDEAS](https://ideas.repec.org/f/pse707.html) | [<img src="./assets/icon/webofscience.ico" alt="webofscience icon" width="25"> Web of Science](https://www.webofscience.com/wos/author/record/2296848) | [<img src="./assets/icon/ssrn.ico" alt="ssrn icon" width="25"> SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4360579) | [<img src="./assets/icon/bde.ico" alt="bde icon" width="25"> Banco de España Author's Repository](https://repositorio.bde.es/browse?type=author&value=Serrano+Puente%2C+Dar%C3%ADo)
+
 
 ## Access my CV
 
