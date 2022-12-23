@@ -11,43 +11,26 @@ I obtained my MSc in Economics from [University of Mannheim](https://www.vwl.uni
 - 👨‍💻 Programming languages: [![My Skills](https://skills.thijs.gg/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skills.thijs.gg)
 
 ## Contact details
-
-        <ul class="social-list">
-
-
-          <li class="social-item">
-            <a href="https://twitter.com/darioserranopue" target="_blank" class="social-link">
+<a href="https://twitter.com/darioserranopue" target="_blank" class="social-link">
               <div class="service-icon-box">
                 <img src="./assets/icon/twitter.ico" alt="twitter icon" width="20">
               </div>
-            </a>
-          </li>     
-
-          <li class="social-item">
-            <a href="https://econtwitter.net/@serranopuente" target="_blank" class="social-link">
+</a>
+<a href="https://econtwitter.net/@serranopuente" target="_blank" class="social-link">
               <div class="service-icon-box">
                 <img src="./assets/icon/mastodon.ico" alt="mastodon icon" width="20">
               </div>
-            </a>
-          </li>          
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/serranopuente/" target="_blank" class="social-link">
+</a>       
+<a href="https://www.linkedin.com/in/serranopuente/" target="_blank" class="social-link">
               <div class="service-icon-box">
                 <img src="./assets/icon/linkedin.ico" alt="linkedin icon" width="20">
               </div>
-            </a>
-          </li>
-          
-          <li class="social-item">
-            <a href="https://github.com/serranopuente" target="_blank" class="social-link">
+</a>
+ <a href="https://github.com/serranopuente" target="_blank" class="social-link">
               <div class="service-icon-box">
                 <img src="./assets/icon/github.ico" alt="github icon" width="25">
               </div>
-            </a>
-          </li>
-          
-        </ul>
+ </a>
 
 ## Social
 
