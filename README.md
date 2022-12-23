@@ -4,18 +4,23 @@ I am a Pre-Doctoral PhD Researcher (PhD Candidate in Economics) at [Universitat 
 
 I obtained my MSc in Economics from [University of Mannheim](https://www.vwl.uni-mannheim.de/en/) in 2019 and my Bachelor's degree in Economics from [Universidad Autónoma de Madrid](https://www.uam.es/Economicas/Home.htm?language=en) in 2016.
 
+
 ## Interests
 
 - 📈 Research fields: Public Finance | Taxation | Public Policy Evaluation | Inequality | Macroeconomics
 - 🛠️ Technical interests: Micro-Simulation Tools | Micro-Data | Computational Economics | [QuantEcon](https://quantecon.org/) | Machine Learning
-- 👨‍💻 Programming languages: [![My Skills](https://skills.thijs.gg/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skills.thijs.gg)
 
+## </> 👨‍💻
+
+<img src="./assets/icon/stata.ico" width="20"> Stata | <img src="./assets/icon/matlab.ico" alt="matlab icon" width="20"> Matlab | <img src="./assets/icon/python.ico" alt="python icon" width="20"> Python | <img src="./assets/icon/r.ico" alt="r icon" width="20"> Rstats | <img src="./assets/icon/julia.ico" alt="julia icon" width="20"> Julia | <img src="./assets/icon/fortran.ico" alt="fortran icon" width="20"> Fortran | <img src="./assets/icon/latex.ico" alt="latex icon" width="20"> LaTeX | <img src="./assets/icon/github2.ico" alt="github2 icon" width="25"> Github | <img src="./assets/icon/git.ico" alt="git icon" width="20"> Git | <img src="./assets/icon/html.ico" alt="html icon" width="15"> HTML | <img src="./assets/icon/css.ico" alt="css icon" width="15"> CSS | <img src="./assets/icon/euromod.ico" alt="euromod icon" width="15"> Euromod 
 
 ## Contact | Social Media
 
 [<img src="./assets/icon/email.ico" alt="email icon" width="20"> darioserrapuente@gmail.com](mailto:darioserrapuente@gmail.com) | [<img src="./assets/icon/email.ico" alt="email icon" width="20"> dario.serrano@ub.edu](mailto:dario.serrano@ub.edu)
 
 [<img src="./assets/icon/twitter.ico" alt="twitter icon" width="20"> Twitter](https://twitter.com/darioserranopue) | [<img src="./assets/icon/mastodon.ico" alt="mastodon icon" width="20"> Mastodon](https://econtwitter.net/@serranopuente) | [<img src="./assets/icon/linkedin.ico" alt="linkedin icon" width="20"> LinkedIn](https://www.linkedin.com/in/serranopuente/) | [<img src="./assets/icon/github.ico" alt="github icon" width="25"> Github](https://github.com/serranopuente)
+
+
 
 ## Research Profiles
 
