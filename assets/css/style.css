@@ -86,8 +86,10 @@
   --fs-6: 14px;
   --fs-7: 13px;
   --fs-8: 11px;
-  --fs-9: 9px;
-  --fs-10: 7px;
+  --fs-9: 10px;
+  --fs-10: 9px;
+  --fs-11: 8px;
+  --fs-12: 7px;
 
   /* font-weight */
   --fw-100: 100;
@@ -426,13 +428,13 @@ main {
 .contact-title {
   color: var(--light-gray-70);
   font-size: var(--fs-8);
-  text-transform: uppercase;
+  # text-transform: uppercase;
   margin-bottom: 2px;
 }
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
-  font-size: var(--fs-7);
+  font-size: var(--fs-8);
 }
 
 .contact-info address { font-style: normal; }
