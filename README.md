@@ -8,7 +8,7 @@ Previously: [AIReF](https://www.airef.es/es/) (Public Policy Evaluation Division
 
 ## Interests
 
-- 📈 Econ Research fields: Public Finance | Taxation | Public Policy Evaluation | Inequality | Macroeconomics
+- 📈 Econ research fields: Public Finance | Taxation | Public Policy Evaluation | Inequality | Macroeconomics
 - 🛠️ Technical interests: Micro-Simulation Tools | Micro-Data | Computational Economics | [QuantEcon](https://quantecon.org/) | Machine Learning
 
 ## </> 👨‍💻
