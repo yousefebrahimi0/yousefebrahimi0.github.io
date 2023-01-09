@@ -265,7 +265,7 @@ article.active {
 
 .has-scrollbar::-webkit-scrollbar {
   width: 5px; /* for vertical scrollbar */
-  height: 5px; /* for horizontal scrollbar */
+  height: 8px; /* for horizontal scrollbar */
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
@@ -512,8 +512,16 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  
 }
 
+.about-text-link {
+  display: inline;
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
 .about-text p { margin-bottom: 15px; }
 
 
@@ -764,7 +772,7 @@ main {
 }
 
 .clients-item img {
-  width: 100%;
+  width: 80%;
   filter: grayscale(1);
   transition: var(--transition-1);
 }
@@ -1589,7 +1597,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* clients */
 
   .clients-list {
-    gap: 50px;
+    gap: 10px;
     margin: 0 -30px;
     padding: 45px;
     scroll-padding-inline: 45px;
