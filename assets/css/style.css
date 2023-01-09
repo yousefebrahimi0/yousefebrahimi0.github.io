@@ -599,15 +599,17 @@ main {
   left: 0;
   transform: translate(15px, -25px);
   background: var(--bg-gradient-onyx);
-  border-radius: 14px;
+  border-radius: 100px;
   box-shadow: var(--shadow-1);
 }
 
-.testimonials-item-title { margin-bottom: 7px; }
+.testimonials-item-title { margin-bottom: 7px;}
+
+.testimonials-item-subtitle { margin-bottom: 7px; font-size: var(--fs-8); color: var(--light-gray);}
 
 .testimonials-text {
   color: var(--light-gray);
-  font-size: var(--fs-6);
+  font-size: var(--fs-7);
   font-weight: var(--fw-300);
   line-height: 1.6;
   display: -webkit-box;
@@ -616,6 +618,7 @@ main {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
 
 
 /**
@@ -708,14 +711,16 @@ main {
 .modal-avatar-box {
   background: var(--bg-gradient-onyx);
   width: max-content;
-  border-radius: 14px;
+  border-radius: 100px;
   margin-bottom: 15px;
   box-shadow: var(--shadow-2);
 }
 
 .modal-img-wrapper > img { display: none; }
 
-.modal-title { margin-bottom: 4px; }
+.modal-title { margin-bottom: 7px;}
+
+.modal-subtitle { margin-bottom: 7px; font-size: var(--fs-7); color: var(--light-gray);}
 
 .modal-content time {
   font-size: var(--fs-6);
@@ -1182,19 +1187,19 @@ main {
 
  .contactsectioncontent-listemail {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
    gap: 3px;
 }
 
 .contactsectioncontent-listsocialmedia {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
    gap: 3px;
 }
 
 .contactsectioncontent-listresearch {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
    gap: 3px;
 }
 
@@ -1533,7 +1538,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-avatar-box {
     transform: translate(30px, -30px);
-    border-radius: 20px;
+    border-radius: 100px;
   }
 
   .testimonials-avatar-box img { width: 80px; }
@@ -1547,6 +1552,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     line-clamp: 2;
     -webkit-line-clamp: 2;
   }
+
 
   /* testimonials modal */
 
@@ -1568,7 +1574,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .modal-avatar-box {
-    border-radius: 18px;
+    border-radius: 100px;
     margin-bottom: 0;
   }
 
@@ -1847,6 +1853,25 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(25% - 38px); }
 
+  /* Contact content */
+
+   .contactsectioncontent-listemail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+   gap: 3px;
+}
+
+.contactsectioncontent-listsocialmedia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 3px;
+}
+
+.contactsectioncontent-listresearch {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+   gap: 3px;
+}
 
 
   /**
