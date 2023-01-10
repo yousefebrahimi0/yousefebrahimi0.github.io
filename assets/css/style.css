@@ -266,11 +266,16 @@ article.active {
 .has-scrollbar::-webkit-scrollbar {
   width: 5px; /* for vertical scrollbar */
   height: 8px; /* for horizontal scrollbar */
+
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
   background: var(--onyx);
   border-radius: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
@@ -715,6 +720,27 @@ main {
 .modal-close-btn:focus { opacity: 1; }
 
 .modal-close-btn ion-icon { --ionicon-stroke-width: 50px; }
+
+.modal-view-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: var(--onyx);
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-2);
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.modal-view-btn:hover,
+.modal-view-btn:focus { opacity: 1; }
+
+.modal-view-btn ion-icon { --ionicon-stroke-width: 50px; }
 
 .modal-avatar-box {
   background: var(--bg-gradient-onyx);
