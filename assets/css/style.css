@@ -266,16 +266,15 @@ article.active {
 .has-scrollbar::-webkit-scrollbar {
   width: 5px; /* for vertical scrollbar */
   height: 8px; /* for horizontal scrollbar */
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: scroll;
 
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
   background: var(--onyx);
   border-radius: 5px;
-  display: flex;
-  flex-wrap: nowrap;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
