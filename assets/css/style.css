@@ -266,10 +266,6 @@ article.active {
 .has-scrollbar::-webkit-scrollbar {
   width: 5px; /* for vertical scrollbar */
   height: 8px; /* for horizontal scrollbar */
-  display: flex;
-  flex-wrap: nowrap;
-  -webkit-overflow-scrolling: scroll;
-
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
@@ -280,6 +276,7 @@ article.active {
 .has-scrollbar::-webkit-scrollbar-thumb {
   background: var(--orange-yellow-crayola);
   border-radius: 5px;
+  box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
 .has-scrollbar::-webkit-scrollbar-button { width: 20px; }
