@@ -364,6 +364,24 @@ main {
   border-radius: 8px;
 }
 
+.download-cv .title {
+  color: var(--vegas-gold);
+  background: var(--onyx);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  width: max-content;
+  padding: 3px 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.download-cv .icon {
+  display:inline;
+}
+
+
 .info_more-btn {
   position: absolute;
   top: -15px;
@@ -885,11 +903,30 @@ main {
   margin-top: 3px;
 }
 
+.timeline-text-small {
+  font-size: var(--fs-8);
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
 .timeline-text-link {
   color: var(--vegas-gold);
   font-weight: var(--fw-300);
   line-height: 1.6;
   margin-bottom: 10px;
+  display: inline;
+}
+
+.timeline-text-small-link {
+  font-size: var(--fs-8);
+  color: var(--vegas-gold);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-bottom: 3px;
+  margin-top: 3px;
   display: inline;
 }
 
@@ -1255,6 +1292,18 @@ main {
    gap: 3px;
 }
 
+.resume-compliteracy-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+   gap: 3px;
+}
+
+.resume-languages-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+   gap: 3px;
+}
+
 .contactsectioncontent-item {
   min-width: 100%;
   display: flex;
@@ -1510,6 +1559,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .info-content .name { margin-bottom: 15px; }
 
   .info-content .title { padding: 5px 18px; }
+  .download-cv .title { padding: 5px 18px; }
 
   .info_more-btn {
     top: -30px;
@@ -1929,6 +1979,19 @@ textarea.form-input::-webkit-resizer { display: none; }
    gap: 3px;
 }
 
+.resume-compliteracy-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   gap: 3px;
+}
+
+.resume-languages-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 3px;
+}
+
+
 
   /**
    * PORTFOLIO
@@ -2032,7 +2095,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     text-align: center;
   }
 
-  .info-content .title { margin: auto; }
+  .info-content .title { margin: auto; text-align: center;}
+  .download-cv .title { margin: auto; text-align: center;}
 
   .info_more-btn { display: none; }
 
