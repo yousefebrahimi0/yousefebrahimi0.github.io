@@ -1366,6 +1366,7 @@ main {
   transition: var(--transition-1);
 }
 
+
 .project-item > a:hover .project-item-icon-box {
   --scale: 1;
   opacity: 1;
