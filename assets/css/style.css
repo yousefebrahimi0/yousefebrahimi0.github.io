@@ -219,15 +219,13 @@ article {
 .icon-box-download {
   display: inline;
   position: relative;
-  background: var(--border-gradient-onyx);
   width: 30px;
   height: 30px;
-  border-radius: 8px;
+  border-radius: 3px;
   justify-content: center;
   align-items: center;
   font-size: 16px;
   color: var(--orange-yellow-crayola);
-  box-shadow: var(--shadow-1);
   z-index: 1;
 }
 
@@ -235,13 +233,42 @@ article {
   display: inline;
   content: "";
   position: absolute;
-  inset: 1px;
+  inset: 0px;
   background: var(--eerie-black-1);
   border-radius: inherit;
   z-index: -1;
 }
 
-.icon-box-download ion-icon { --ionicon-stroke-width: 35px; display: inline;}
+.icon-box-download ion-icon { --ionicon-stroke-width: 0px; display: inline;}
+
+.icon-box-download-bl {
+  display: inline;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: var(--orange-yellow-crayola);
+  z-index: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.icon-box-download-bl::before {
+  display: inline;
+  content: "";
+  position: absolute;
+  inset: 0px;
+  background: var(--bg-gradient-onyx);
+  border-radius: inherit;
+  z-index: -1;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.icon-box-download-bl ion-icon { --ionicon-stroke-width: 0px; display: inline;}
 
 article { display: none; }
 
@@ -731,6 +758,8 @@ main {
   }
 
   .publications-item-journal {
+    text-align: justify;
+    text-justify: inter-word;
     color: var(--light-gray);
     font-size: var(--fs-8);
     font-weight: var(--fw-3);
@@ -1145,6 +1174,7 @@ main {
   line-height: 1.6;
   margin-bottom: 3px;
   margin-top: 3px;
+  display:inline;
 }
 
 .timeline-text-link {
@@ -1358,6 +1388,8 @@ main {
 .project-material { margin-left: 10px; }
 
 .project-title {
+  text-align: justify;
+  text-justify: inter-word;
   color: var(--white-2);
   font-style: italic;
   font-size: var(--fs-8);
@@ -1806,6 +1838,14 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .icon-box-download {
+    display: inline;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 18px;
+  }
+
+  .icon-box-download-bl {
     display: inline;
     width: 48px;
     height: 48px;
