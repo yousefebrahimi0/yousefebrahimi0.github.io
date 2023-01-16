@@ -536,7 +536,6 @@ main {
 .contact-title {
   color: var(--light-gray-70);
   font-size: var(--fs-8);
-  # text-transform: uppercase;
   margin-bottom: 2px;
 }
 
@@ -580,7 +579,7 @@ main {
   background: hsla(240, 1%, 17%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
-  border-radius: 12px 12px 0 0;
+  border-radius: 20px 20px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
 }
@@ -590,13 +589,13 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0 10px;
+  padding: 10 10px;
 }
 
 .navbar-link {
   color: var(--light-gray);
   font-size: var(--fs-8);
-  padding: 20px 7px;
+  padding: 15px 5px;
   transition: color var(--transition-1);
 }
 
@@ -613,7 +612,7 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
-.about .article-title { margin-bottom: 15px; }
+.about .article-title { margin-top: 40px; margin-bottom: 15px; }
 
 .about-text {
   text-align: justify;
@@ -803,10 +802,6 @@ main {
     display: inline-block;
   }
     
-    
-
-  }
- 
  .publications-item-text {
    text-align: justify;
    text-justify: inter-word;
@@ -1061,7 +1056,7 @@ main {
   #RESUME
 \*-----------------------------------*/
 
-.article-title { margin-bottom: 30px; }
+.article-title { margin-top: 40px; margin-bottom: 30px; }
 
 
 /**
@@ -1552,7 +1547,7 @@ main {
  * #contactsection 
  */
 
- .contactsection { margin-bottom: 35px; }
+ .contactsection { margin-top: 35px;  margin-bottom: 35px; }
 
  .contactsection-title { margin-bottom: 30px; }
  
@@ -1641,7 +1636,6 @@ main {
 .contactsectioncontent-title {
   color: var(--light-gray-70);
   font-size: var(--fs-8);
-  # text-transform: uppercase;
   margin-bottom: 2px;
   margin-left: 0px;
   text-align: left;
@@ -1930,9 +1924,9 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #NAVBAR
    */
 
-  .navbar { border-radius: 20px 20px 0 0; }
+  .navbar { border-radius: 20px 20px 0px 0px; }
 
-  .navbar-list { gap: 20px; }
+  .navbar-list { gap: 7px; }
 
   .navbar-link { --fs-8: 14px; }
 
@@ -2179,7 +2173,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * PORTFOLIO
    */
 
-  .article-title { padding-bottom: 20px; }
+  .article-title { margin-top: 40px; padding-bottom: 20px; }
 
   .filter-select-box { display: none; }
 
@@ -2282,16 +2276,14 @@ textarea.form-input::-webkit-resizer { display: none; }
     position: absolute;
     bottom: auto;
     top: 0;
-    left: auto;
-    right: 0;
-    width: max-content;
-    border-radius: 0 20px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
     padding: 0 20px;
     box-shadow: none;
   }
 
   .navbar-list {
-    gap: 30px;
+    gap: 40px;
     padding: 0 20px;
   }
 
