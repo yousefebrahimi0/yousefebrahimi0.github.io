@@ -384,7 +384,7 @@ details summary {
 \*-----------------------------------*/
 
 main {
-  margin: 15px 12px;
+  margin: 15px 13px;
   margin-bottom: 75px;
   min-width: 259px;
 }
@@ -2503,8 +2503,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 */
 
 .copyright {
-  position: absolute;
+  position:static;
   width: 100%;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   color: var(--light-gray-70);
   font-size: var(--fs-10);
