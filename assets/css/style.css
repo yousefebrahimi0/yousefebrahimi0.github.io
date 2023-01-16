@@ -368,12 +368,12 @@ details summary {
   padding: 1rem;
   text-align: justify;
   text-justify: inter-word;
-  margin: 0.5rem 1rem 1rem 1rem;
+  margin: 0.2rem 0.2rem 0.2rem 0.2rem;
   border-left: 2px solid var(--vegas-gold);
 }
 
 .p-pre{
-    padding: 1rem;
+    padding: 0.2rem;
     text-align: justify;
 }
 
@@ -706,6 +706,7 @@ main {
    border-radius: 14px;
    box-shadow: var(--shadow-2);
    z-index: 1;
+   margin: 0px;
  }
  
  .publications-item::before {
@@ -745,7 +746,7 @@ main {
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 15px;
-    font-size: var(--fs-5);
+    font-size: var(--fs-7);
     color: var(--white-2);
   }
 
@@ -755,6 +756,15 @@ main {
     margin-bottom: 15px;
     font-size: var(--fs-8);
     color: var(--white-2);
+  }
+
+  .publications-item-author-link {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 15px;
+    font-size: var(--fs-8);
+    color: var(--vegas-gold);
+    display: inline;
   }
 
   .publications-item-journal {
@@ -1961,7 +1971,7 @@ textarea.form-input::-webkit-resizer { display: none; }
       justify-content: flex-start;
       align-items: left;
       gap: 18px;
-      padding: 30px;
+      padding: 20px;
     }
   
     .publications-icon-box {
