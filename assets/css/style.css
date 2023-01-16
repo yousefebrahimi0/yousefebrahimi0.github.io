@@ -1011,7 +1011,7 @@ main {
  * #clients 
  */
 
-.clients { margin-bottom: 15px; }
+.clients { margin-bottom: 10px; }
 
 .clients-list {
   display: grid;
@@ -2503,16 +2503,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 */
 
 .copyright {
-  position:static;
+  position:relative;
   width: 100%;
   padding-top: 1rem;
-  padding-bottom: 1rem;
   color: var(--light-gray-70);
   font-size: var(--fs-10);
   font-weight: var(--fw-300);
   line-height: 1.6;
   text-align: center;
-  bottom:0;
 }
 
 .copyright-link {
