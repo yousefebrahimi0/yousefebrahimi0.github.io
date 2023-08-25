@@ -2047,7 +2047,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
     margin: 0 -30px;
     padding: 45px;
