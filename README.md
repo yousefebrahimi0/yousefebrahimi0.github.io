@@ -1,4 +1,4 @@
-#Welcome to my porfolio website repo!
+# Welcome to my porfolio website repo!
 
 ***
 :boy: I am a `PhD Candidate in Economics` at [Universitat de Barcelona (UB)](https://www.ub.edu/school-economics/) & [Institut d'Economia de Barcelona (IEB)](https://ieb.ub.edu/en/) since September 2021. I obtained my MSc in Economics from [University of Mannheim](https://www.vwl.uni-mannheim.de/en/) in 2019 and my Bachelor's degree in Economics from [Universidad Autónoma de Madrid](https://www.uam.es/Economicas/Home.htm?language=en) in 2016.
