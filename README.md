@@ -1,5 +1,5 @@
 <div style="width: 100%; height: 20%;">
-  <img src="hi_dario.svg" style="width: 100%;" alt="Click to see the source">
+  <img src="hi_dario.svg](https://raw.githubusercontent.com/serranopuente/serranopuente/main/hi_dario.svg" style="width: 100%;" alt="Click to see the source">
 </div>
 
 ***
