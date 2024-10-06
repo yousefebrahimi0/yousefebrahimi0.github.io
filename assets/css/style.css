@@ -1,16 +1,10 @@
 /*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
-
-
-/**
- * Taken in 2022 from @codewithsadee
-   Modified by @serranopuente
- */
-
-
-
-
+/*
+   Taken in 2022 from @codewithsadee
+   Modified by Yousef
+*/
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -2519,4 +2513,36 @@ textarea.form-input::-webkit-resizer { display: none; }
   font-size: var(--fs-10);
   font-weight: var(--fw-300);
 
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup img {
+  max-width: 800px;
+  max-height: 600px;
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.publications-icon-box img[data-testimonials-avatar]:checked + .popup {
+  display: flex;
+}
+.publications-icon-box img[data-testimonials-avatar]:checked + .popup .close-popup {
+  display: block;
 }
