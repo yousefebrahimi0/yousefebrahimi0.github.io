@@ -149,10 +149,3 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
-
-// add click event to all modal items
-document.querySelector('.publications-icon-box img').addEventListener("click", function () {
-  modalImg.src = this.src;
-  modalImg.alt = this.alt;
-  testimonialsModalFunc();
-});
