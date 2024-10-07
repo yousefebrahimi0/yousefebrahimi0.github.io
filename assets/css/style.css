@@ -2518,3 +2518,16 @@ align-items: left;
 width: 120px;
 height: auto;
 }
+
+.image-container {
+  position: relative;
+  display: inline-block; /* To make the container fit the content */
+}
+
+.image-container .subtitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* You can move this to CSS for consistency */
+}
