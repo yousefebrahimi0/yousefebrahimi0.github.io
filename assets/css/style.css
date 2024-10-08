@@ -2527,5 +2527,6 @@ height: auto;
 
 .image-container .subtitle {
   display: block;
-  margin-top: 7px;
+  margin-top: 10px;
+  color: var(--white-2);
 }
