@@ -69,7 +69,7 @@
    */
 
   /* font-family */
-  --ff-poppins: 'Poppins', sans-serif;
+  --ff-poppins: 'manrope', sans-serif;
 
   /* font-size */
   --fs-1: 24px;
@@ -2532,5 +2532,4 @@ height: auto;
 .image-container .subtitle {
   display: block;
   margin-top: 7px;
-  color: white;
 }
