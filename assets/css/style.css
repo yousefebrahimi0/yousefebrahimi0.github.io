@@ -1200,8 +1200,12 @@ main {
 
 .skills-title { margin-bottom: 20px; }
 
-.skills-list { padding: 20px; }
-
+.skills-list { 
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
