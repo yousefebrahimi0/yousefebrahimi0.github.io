@@ -1,8 +1,6 @@
 User-agent: *
 Disallow: /
 
-Disallow: /private/
-
 User-agent: Googlebot
 Disallow: /
 
@@ -78,10 +76,16 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
+User-agent: Diffbot
+Disallow: /
+
 User-Agent: Google-Extended
 Disallow: /
 
 User-Agent: Applebot-Extended
+Disallow: /
+
+User-agent: Applebot
 Disallow: /
 
 User-agent: GPTBot
@@ -91,6 +95,12 @@ User-agent: ChatGPT-User
 Disallow: /
 
 User-agent: PerplexityBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Scrapy
 Disallow: /
 
 User-agent: Amazonbot
@@ -103,4 +113,31 @@ User-agent: Omgili
 Disallow: /
 
 User-agent: YouBot
+Disallow: /
+
+User-agent: AASA-Bot
+Disallow: /
+
+User-agent: Facebot
+Disallow: /
+
+User-agent: Twitterbot
+Disallow: /
+
+User-agent: LinkedInBot
+Disallow: /
+
+User-agent: Feedly
+Disallow: /
+
+User-agent: Pingdom
+Disallow: /
+
+User-agent: JamesBOT
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: ia_archiver
 Disallow: /
