@@ -2,7 +2,7 @@
 
 I graduated with a master's degree in Data Science and Advanced Analytics (with a specialization in Business Analytics) from [NOVA IMS - Universidade Nova de Lisboa](https://www.novaims.unl.pt/) in 2024. Also, I obtained my BA in Industrial Engineering in 2012.
 
-:office: I worked at: <a href="https://www.cisco.com/" target="_blank" rel="nofollow">Cisco</a> as a Business Analyst, <a href="https://www.nestseekers.com/" target="_blank" rel="nofollow">Nest Seekers International</a> as a Data Collection Analyzer, <a href="https://www.meta.com/" target="_blank" rel="nofollow">Meta</a> (via Teleperformance) as a Customer Delight Representative, <a href="https://tedxnova.unl.pt/" target="_blank" rel="nofollow">TEDx Nova</a> as a Web Design Specialist, <a href="https://girafa.club/" target="_blank" rel="nofollow">Girafa</a> as a Webmaster & WordPress Web Designer, <a href="https://greenment.co/" target="_blank" rel="nofollow">Greenment</a> as a Web Design Specialist, <a href="https://abdin.com/" target="_blank" rel="nofollow">Abdin Digital Marketing Agency</a> as a Search Engine Optimization Specialist, and <a href="https://www.linkedin.com/company/snappfood/about/" target="_blank" rel="nofollow">Snappfood</a> as a Customer Support Specialist.
+:office: I worked at: <a href="https://www.cisco.com/" target="_blank" rel="nofollow">Cisco</a> as a Business Analyst, <a href="https://novasbe.pt/" target="_blank" rel="nofollow">Nova SBE</a> as a Digital Growth Analyst, <a href="https://www.nestseekers.com/" target="_blank" rel="nofollow">Nest Seekers International</a> as a Data Collection Analyzer, <a href="https://www.meta.com/" target="_blank" rel="nofollow">Meta</a> (via Teleperformance) as a Customer Delight Representative, <a href="https://tedxnova.unl.pt/" target="_blank" rel="nofollow">TEDx Nova</a> as a Web Design Specialist, <a href="https://girafa.club/" target="_blank" rel="nofollow">Girafa</a> as a Webmaster & WordPress Web Designer, <a href="https://greenment.co/" target="_blank" rel="nofollow">Greenment</a> as a Web Design Specialist, <a href="https://abdin.com/" target="_blank" rel="nofollow">Abdin Digital Marketing Agency</a> as a Search Engine Optimization Specialist, and <a href="https://www.linkedin.com/company/snappfood/about/" target="_blank" rel="nofollow">Snappfood</a> as a Customer Support Specialist.
 
 :mag: My research interests are:
 
@@ -21,7 +21,6 @@ I graduated with a master's degree in Data Science and Advanced Analytics (with 
 
 #### Social Media
 <a href="https://www.linkedin.com/in/yousefebrahimi0" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/yousefebrahimi0-0077B5?style=flat-square&logo=Linkedin&logoColor=white"></a>
-<a href="https://x/yousefebrahimi0" target="_blank"><img alt="Twitter" src="https://img.shields.io/twitter/follow/:yousefebrahimi0?style=flat-square&logo=x&logoColor=white"></a>
 <a href="https://github.com/yousefebrahimi0" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/yousefebrahimi0-181717?style=flat-square&logo=github&logoColor=white"></a>
 
 ### Support Me
