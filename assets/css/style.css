@@ -2594,4 +2594,5 @@ height: auto;
 .project-description {
   /* Keep existing styles, but you might add margin-top if needed */
   margin-top: 0.5em;
+color: #f8f8f8;
 }
