@@ -2673,3 +2673,11 @@ height: auto;
   border: none;
   border-top: 1px solid var(--jet); 
 }
+
+.project-description {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-top: 5px; /* Add some space above the description */
+}
