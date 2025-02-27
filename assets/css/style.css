@@ -2540,16 +2540,16 @@ height: auto;
 \*-----------------------------------*/
 
 .portfolio {
-  padding-top: 50px; /* Or whatever top padding you want for the section */
+  padding-top: 50px; 
 }
 
 .project-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
-  gap: 20px; /* Spacing between grid items */
-  list-style: none; /* Remove default list bullets */
-  padding: 0; /* Remove default list padding */
-  margin: 0;  /*Remove default list margin */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  list-style: none; 
+  padding: 0;
+  margin: 0; 
 }
 .project-item {
     display: flex;
@@ -2559,40 +2559,37 @@ height: auto;
 
 .project-icon {
     margin-right: 10px;
-    font-size: 20px; /* Keep this size, or adjust slightly */
+    font-size: 20px; 
     flex-shrink: 0;
-    /* Align the icon with the baseline of the title */
     position: relative;
-    top: 0.15em; /* Adjust this value for fine-tuning vertical alignment */
+    top: 0.15em; 
 }
 .project-item > div {
     flex-grow: 1;
 }
 
-/* New and modified styles */
 .project-title {
-    font-size: 1.25rem; /* Or whatever size you prefer, relative to the base font size */
-    font-weight: 600; /* Make the title a bit bolder */
-    margin-bottom: 0.25em; /* Add a small space below the title */
+    font-size: 1.25rem; 
+    font-weight: 600; 
+    margin-bottom: 0.25em; 
 }
 .project-subtitle{
     font-size: 1.1rem;
 }
 
 .project-material-link {
-    font-size: 1rem; /* Make the URL larger */
-    color: #3498db; /* Example: Use a more visible link color */
-    text-decoration: none; /* Remove the underline (optional) */
-    display: inline-block; /* Allows us to add margin/padding if needed */
-    margin-top: 0.5em; /* Add some space above the URL */
+    font-size: 1rem; 
+    color: var(--orange-yellow-crayola); 
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top: 0.5em; 
 }
 
 .project-material-link:hover {
-    text-decoration: underline; /* Add underline on hover (optional) */
+    text-decoration: underline; 
 }
 
 .project-description {
-  /* Keep existing styles, but you might add margin-top if needed */
   margin-top: 0.5em;
 color: #f8f8f8;
 }
