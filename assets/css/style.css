@@ -2704,3 +2704,18 @@ height: auto;
   margin-left: 5px; /* Add some space between title and icon */
   /* ... rest of the existing styles ... */
 }
+
+.project-item {
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
+    margin-bottom: 20px; /* Add some spacing between items */
+}
+
+.project-icon {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 20px; /* Adjust icon size */
+    flex-shrink: 0; /* Prevent icon from shrinking */
+}
+.project-item > div {
+    flex-grow: 1;
+}
