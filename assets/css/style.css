@@ -1386,7 +1386,7 @@ main {
 .project-title {
   text-align: justify;
   text-justify: inter-word;
-  color: var(--white-2);
+  color: var(--orange-yellow-crayola);
   font-style: italic;
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
@@ -1398,7 +1398,7 @@ main {
 
 .project-subtitle {
   margin-top: 10px;
-  color: var(--light-gray-70);
+  color: var(--white-2);
   font-size: var(--fs-9);
   font-weight: var(--fw-100);
   line-height: 1.3;
