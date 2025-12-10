@@ -1,15 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-/*
-   Taken in 2022 from @codewithsadee
-   Modified by Yousef
-*/
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
   /**
@@ -1200,13 +1188,6 @@ main {
 
 .skills-title { margin-bottom: 20px; }
 
-.skills-list { 
-  padding: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
 .skill .title-wrapper {
@@ -1235,7 +1216,47 @@ main {
   border-radius: inherit;
 }
 
+/* Container Layout */
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
 
+/* Card Styling */
+.skills-item {
+  background: var(--bg-gradient-jet, #2b2b2c); /* Fallback color if variable missing */
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.skills-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+}
+
+/* Title Styling */
+.skills-item .h5 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--white-1, #ffffff);
+}
+
+/* The New Detail Text Styling */
+.skill-tags {
+  display: block;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--light-gray, #d6d6d6); /* Lighter gray for readability */
+  font-weight: 300;
+  opacity: 0.8;
+}
 
 
 
