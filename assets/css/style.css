@@ -2634,7 +2634,7 @@ color: #f8f8f8;
 }
 
 .modal-content {
-  background-color: var(--bg-gradient-onyx, #2b2b2b);
+  background-color: rgb(17, 17, 17);
   color: var(--white-2, #fff);
   margin: 5% auto;
   padding: 30px;
