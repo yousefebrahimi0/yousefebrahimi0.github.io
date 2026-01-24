@@ -1909,18 +1909,63 @@ My Approach: I treat business problems like a crime scene and data like the evid
           </li>
 
         </ul>
-        <p class="copyright">&copy <a href="https://yousef.uk/" target="_blank" class="copyright-link">Yousef Ebrahimi</a> 2024 | Ahead of <a href="https://github.com/codewithsadee/vcard-personal-portfolio" target="_blank" class="copyright-link">@codewithsadee</a> base code.
-        </br>
-        </p>
+<p class="copyright">
+  &copy; <a href="https://yousef.uk/" target="_blank" class="copyright-link">Yousef Ebrahimi</a> 2024 | 
+  Ahead of <a href="https://github.com/codewithsadee/vcard-personal-portfolio" target="_blank" class="copyright-link">@codewithsadee</a> base code.
+  <br>
+  <a href="#" id="privacyLink" class="copyright-link">Privacy Policy</a>
+</p>
+
+<!-- Privacy Modal -->
+<div id="privacyModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Privacy Policy</h2>
+    <p><strong>Last updated:</strong> January 24, 2026</p>
+    
+    <h3>Data Controller</h3>
+    <p>Yousef Ebrahimi<br>Contact: [info [@] yousef [.] uk</p>
+    
+    <h3>Analytics</h3>
+    <p>This website uses privacy-focused analytics to understand visitor behavior without tracking individuals:</p>
+    
+    <p><strong>Simple Analytics:</strong></p>
+    <ul>
+      <li>Cookieless and privacy-first by design</li>
+      <li>Respects "Do Not Track" browser settings</li>
+      <li>No personal data collected</li>
+      <li>GDPR compliant by default</li>
+    </ul>
+    
+    <p><strong>Matomo Analytics (self-hosted):</strong></p>
+    <ul>
+      <li>No cookies are used</li>
+      <li>IP addresses are anonymized (last 2 bytes removed)</li>
+      <li>No personally identifiable information is collected</li>
+      <li>Data stored on our own server (not shared with third parties)</li>
+      <li>Analytics data automatically deleted after 365 days</li>
+    </ul>
+    
+    <h3>Data Collected</h3>
+    <p>We collect only anonymized data: pages visited, anonymized location (city level), browser type, device type, and anonymized referrer information. No individual user tracking occurs.</p>
+    
+    <h3>Legal Basis</h3>
+    <p>Legitimate interest (Article 6(1)(f) GDPR) for processing anonymized statistical data.</p>
+    
+    <h3>Your Rights</h3>
+    <p>Under GDPR, you have rights to access, rectify, or delete your data. However, since we collect only anonymized data, individual identification is not possible. For questions, contact: [your-email@example.com]</p>
+    
+    <h3>Third Parties</h3>
+    <p>This website is hosted on GitHub Pages. Simple Analytics processes anonymized visitor statistics as a data processor. No other third-party services access your data.</p>
+  </div>
+</div>
       </article>
     </div>
   </main>
-
   <!--
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
-
   <!--
     - ionicon link
   -->
@@ -1928,5 +1973,35 @@ My Approach: I treat business problems like a crime scene and data like the evid
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <!-- 100% privacy-first analytics -->
 <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<script>
+// Privacy Modal
+const modal = document.getElementById('privacyModal');
+const privacyLink = document.getElementById('privacyLink');
+const closeBtn = document.querySelector('.close');
+
+privacyLink.onclick = function(e) {
+  e.preventDefault();
+  modal.style.display = 'block';
+  document.body.style.overflow = 'hidden';
+}
+
+closeBtn.onclick = function() {
+  modal.style.display = 'none';
+  document.body.style.overflow = 'auto';
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+  }
+}
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape' && modal.style.display === 'block') {
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+  }
+});
+</script>
 </body>
 </html>
