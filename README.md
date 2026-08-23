@@ -22,9 +22,3 @@ I graduated with a master's degree in Data Science and Advanced Analytics (with 
 #### Social Media
 <a href="https://www.linkedin.com/in/yousefebrahimi0" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/yousefebrahimi0-0077B5?style=flat-square&logo=Linkedin&logoColor=white"></a>
 <a href="https://github.com/yousefebrahimi0" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/yousefebrahimi0-181717?style=flat-square&logo=github&logoColor=white"></a>
-
-### Support Me
-<a href="https://buymeacoffee.com/yousefebrahimi0" target="_blank"><img alt="Buymeacoffee" src="https://img.shields.io/badge/buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"></a>
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/yousefeb)
-[![Lightning Support](https://img.shields.io/badge/Lightning-Send%20Satoshi%F0%9F%97%B2-blueviolet)](https://justpaste.it/yousefebrahimi0)
-[![Bitcoin](https://img.shields.io/badge/Bitcoin-Send%20%E2%82%BF-important)](https://justpaste.it/yousefebrahimi00)
