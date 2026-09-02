@@ -1,24 +1,50 @@
-# Welcome to my portfolio website repo!
+# Welcome to my portfolio
 
-I graduated with a master's degree in Data Science and Advanced Analytics (with a specialization in Business Analytics) from [NOVA IMS - Universidade Nova de Lisboa](https://www.novaims.unl.pt/) in 2024. Also, I obtained my BA in Industrial Engineering in 2012.
+I am **Yousef Ebrahimi**, a data and product professional based in Portugal. I work at the intersection of data analytics, digital growth, automation, and product development. I use data to find opportunities, improve processes, build useful digital experiences, and support better business decisions.
 
-:office: I worked at: <a href="https://www.cisco.com/" target="_blank" rel="nofollow">Cisco</a> as a Business Analyst, <a href="https://novasbe.pt/" target="_blank" rel="nofollow">Nova SBE</a> as a Digital Growth Analyst, <a href="https://www.nestseekers.com/" target="_blank" rel="nofollow">Nest Seekers International</a> as a Data Collection Analyzer, <a href="https://tedxnova.unl.pt/" target="_blank" rel="nofollow">TEDx Nova</a> as a Web Design Specialist, and some other companies as a Search Engine Optimization Specialist.
+I am currently building **GreenRah**, a climate-tech navigation product for cooler, safer, and more accessible urban walking. The project combines product strategy, user experience, geospatial data, weather data, accessibility, and full-stack development.
 
-:mag: My research interests are:
+## Education
 
-| My Interests |
-| -------- |
-| `Data Analysis` `Python Analysis` `Data Visualization` `SEO` `Digital Marketing` `Customer Relationship Management` `Web Design` `Business Process Automation` `Predictive Modeling` `WordPress Development` `Content Strategy` `Market Research` `Project Management`  | 
+- Master’s degree in **Data Science and Advanced Analytics**, with a specialisation in Business Analytics, from [NOVA IMS — Universidade Nova de Lisboa](https://www.novaims.unl.pt/), 2024.
+- Bachelor’s degree in **Industrial Engineering**, 2012.
+
+## Experience
+
+I have worked in data, growth, analytics, web, and digital-product roles across technology, education, real estate, events, and digital marketing.
+
+Selected experience includes:
+
+- **Data Analyst** at Cisco
+- **Senior Digital Growth & SEO Specialist** at Nova SBE / Value Creation Wheel
+- **Data Collection Analyst** at Nest Seekers International
+- **Web Design Specialist** at TEDxNOVA
+- **Technical SEO Manager**, **Web Designer**, and **Digital Growth Specialist** roles across international projects
+
+My work includes data analysis, Python automation, SQL, reporting, SEO, CRM workflows, business intelligence, web development, user experience, and growth strategy.
+
+## Focus areas
+
+| Areas of interest |
+| --- |
+| `Data Analytics` `Python` `Data Visualisation` `Business Intelligence` `Automation` `Predictive Modelling` `Digital Growth` `Technical SEO` `CRM Automation` `Product Development` `Climate Tech` `Geospatial Data` `Urban Mobility` `Web Development` `Market Research` |
 
 ## Profile
 
-👨‍💻 Results-driven business analyst with 9+ years of expertise in data analysis, SEO, digital marketing, and customer relationship management. Leveraging Python, data visualization, and predictive modeling to drive business growth and inform strategic decision-making. Proven track record of analyzing complex data sets to identify trends, optimize processes, and improve customer satisfaction, driving business outcomes and revenue growth.
+I enjoy working on problems where data, technology, and business goals need to connect.
 
-## Reach Me :mailbox:
+My approach is practical: understand the problem, collect the right data, identify the opportunity, build a useful solution, measure the result, and improve it. I am comfortable working with technical teams, business stakeholders, and product users. I am especially interested in work related to data-driven products, climate adaptation, urban mobility, automation, digital transformation, and user-centred technology.
 
-#### Website
-<a href="https://yousef.uk/" target="_blank"><img src="https://img.shields.io/badge/Yousef.uk-visit-white"></a>
+## Reach me
 
-#### Social Media
-<a href="https://www.linkedin.com/in/yousefebrahimi0" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/yousefebrahimi0-0077B5?style=flat-square&logo=Linkedin&logoColor=white"></a>
-<a href="https://github.com/yousefebrahimi0" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/yousefebrahimi0-181717?style=flat-square&logo=github&logoColor=white"></a>
+### Website
+
+<a href="https://yousef.uk/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Yousef.uk-Visit-1F6B4F?style=flat-square" alt="Visit Yousef.uk">
+</a>
+
+### LinkedIn
+
+<a href="https://www.linkedin.com/in/yousefuk" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/LinkedIn-yousefuk-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="Yousef on LinkedIn">
+</a>
