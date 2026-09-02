@@ -2,7 +2,7 @@
 
 I am **Yousef Ebrahimi**, a data and product professional based in Portugal. I work at the intersection of data analytics, digital growth, automation, and product development. I use data to find opportunities, improve processes, build useful digital experiences, and support better business decisions.
 
-I am currently building **GreenRah**, a climate-tech navigation product for cooler, safer, and more accessible urban walking. The project combines product strategy, user experience, geospatial data, weather data, accessibility, and full-stack development.
+I am currently building [**GreenRah**](https://greenrah.com/), a climate-tech navigation product for cooler, safer, and more accessible urban walking. The project combines product strategy, user experience, geospatial data, weather data, accessibility, and full-stack development.
 
 ## Education
 
@@ -37,14 +37,12 @@ My approach is practical: understand the problem, collect the right data, identi
 
 ## Reach me
 
-### Website
+#### Website & LinkedIn
 
 <a href="https://yousef.uk/" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Yousef.uk-Visit-1F6B4F?style=flat-square" alt="Visit Yousef.uk">
 </a>
-
-### LinkedIn
-
+ 
 <a href="https://www.linkedin.com/in/yousefuk" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/LinkedIn-yousefuk-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="Yousef on LinkedIn">
 </a>
