@@ -6,7 +6,7 @@ I am currently building **GreenRah**, a climate-tech navigation product for cool
 
 ## Education
 
-- Master’s degree in **Data Science and Advanced Analytics**, with a specialisation in Business Analytics, from [NOVA IMS — Universidade Nova de Lisboa](https://www.novaims.unl.pt/), 2024.
+- Master’s degree in **Data Science and Advanced Analytics**, with a specialisation in Business Analytics, from [NOVA IMS, Universidade Nova de Lisboa](https://www.novaims.unl.pt/), 2024.
 - Bachelor’s degree in **Industrial Engineering**, 2012.
 
 ## Experience
