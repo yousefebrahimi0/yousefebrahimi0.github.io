@@ -13,13 +13,13 @@ I am currently building [**GreenRah**](https://greenrah.com/), a climate-tech na
 
 I have worked in data, growth, analytics, web, and digital-product roles across technology, education, real estate, events, and digital marketing.
 
-Selected experience includes:
+Selected previous experience includes:
 
 - **Data Analyst** at Cisco
 - **Senior Digital Growth & SEO Specialist** at Nova SBE / Value Creation Wheel
 - **Data Collection Analyst** at Nest Seekers International
 - **Web Design Specialist** at TEDxNOVA
-- **Technical SEO Manager**, **Web Designer**, and **Digital Growth Specialist** roles across international projects
+- **Technical SEO Manager** and **Web Designer** roles across international projects
 
 My work includes data analysis, Python automation, SQL, reporting, SEO, CRM workflows, business intelligence, web development, user experience, and growth strategy.
 
