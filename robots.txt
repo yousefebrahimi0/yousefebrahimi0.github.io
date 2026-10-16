@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /g/
+Disallow: /q/
 
 User-agent: SEMrushBot
 Disallow: /
