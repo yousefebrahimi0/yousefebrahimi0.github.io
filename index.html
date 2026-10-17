@@ -7,7 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Yousef Ebrahimi</title>
-  <link rel="shortcut icon" href="./assets/icon/favicon.ico" type="image/x-icon">
+  <!-- favicons -->
+  <link rel="icon" href="/assets/icon/favicon.ico?v=3" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png?v=3">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png?v=3">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png?v=3">
+  <link rel="manifest" href="/site.webmanifest?v=3">
+  <!-- /favicons -->
   <link rel="stylesheet" href="./assets/css/style.css?v=2">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1056,14 +1062,14 @@ My Approach: I treat business problems like a crime scene and data like the evid
     <li class="skills-item">
       <div class="title-wrapper">
         <h5 class="h5">Web Development</h5>
-        <data value="70" class="skill-tags">HTML5, CSS3, JavaScript, GTM, Git/GitHub, Docker, PostgreSQL, Snowflake</data>
+        <data value="70" class="skill-tags">HTML5, CSS3, JavaScript, GTM, Git/GitHub, Docker</data>
       </div>
     </li>
 
     <li class="skills-item">
       <div class="title-wrapper">
         <h5 class="h5">Automation & Engineering</h5>
-        <data value="75" class="skill-tags">ETL Pipelines, Apache Airflow, Web Scraping (BeautifulSoup/Selenium/Scrapy), Zapier</data>
+        <data value="75" class="skill-tags">ETL Pipelines, Web Scraping</data>
       </div>
     </li>
 
@@ -1084,7 +1090,7 @@ My Approach: I treat business problems like a crime scene and data like the evid
     <li class="skills-item">
       <div class="title-wrapper">
         <h5 class="h5">Tools & Management</h5>
-        <data value="85" class="skill-tags">Jira, Trello, Salesforce, HubSpot, SEMrush, Ahrefs, Screaming Frog (Regex)</data>
+        <data value="85" class="skill-tags">Jira, Trello, Salesforce, HubSpot, SEMrush, Ahrefs, Screaming Frog</data>
       </div>
     </li>
 
@@ -1856,49 +1862,51 @@ My Approach: I treat business problems like a crime scene and data like the evid
   &copy; <a href="https://yousef.uk/" target="_blank" class="copyright-link">Yousef Ebrahimi</a> 2024 | 
   Ahead of <a href="https://github.com/codewithsadee/vcard-personal-portfolio" target="_blank" class="copyright-link">@codewithsadee</a> base code.
   <br>
-  <a href="#" id="privacyLink" class="copyright-link">Privacy Policy</a>
+  <a href="#" id="privacyLink" class="copyright-link">Privacy &amp; Terms</a>
 </p>
 
 <!-- Privacy Modal -->
-<div id="privacyModal" class="modal">
+<div id="privacyModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="privacyTitle">
   <div class="modal-content">
-    <span class="close">&times;</span>
-    <h2>Privacy Policy</h2>
+    <span class="close" aria-label="Close Privacy &amp; Terms">&times;</span>
+    <h2 id="privacyTitle">Privacy &amp; Terms</h2>
     <p><strong>Last updated:</strong> October 17, 2026</p>
+    <p>This is a small personal website. I don't collect your personal data, and there are no accounts, forms or ads.</p>
 
     <h3>Who is responsible</h3>
     <p>Yousef Ebrahimi<br>Contact: info [@] yousef [.] uk</p>
-
-    <h3>The short version</h3>
-    <p>This website and its blog do not set cookies, have no contact form or user accounts, and do not try to identify you. A few services are needed to deliver and measure the site. They are listed below.</p>
+    <p>If you email me, I treat it like any other correspondence and don't use it for anything else.</p>
 
     <h3>Analytics</h3>
-    <p><strong>Simple Analytics</strong> (Netherlands) counts visits in aggregate:</p>
-    <ul>
-      <li>No cookies and nothing stored on your device</li>
-      <li>IP addresses are not collected or stored</li>
-      <li>It records the page you visit, where you came from, your country (based on your time zone), browser and device type, screen size, language, time on page and how far you scroll</li>
-      <li>The script and the data go to Simple Analytics' own servers (simpleanalyticscdn.com)</li>
-      <li>Visitors whose browser sends a "Do Not Track" signal are not counted</li>
-    </ul>
-    <p><strong>Cloudflare Web Analytics</strong> adds a small script that measures page views and how fast pages load. Cloudflare states that it does not collect or use visitors' personal data, and it sets no cookies here.</p>
+    <p><strong>Simple Analytics</strong> counts visits anonymously. It sets no cookies, stores nothing on your device and doesn't collect IP addresses. It sees things like the page visited, the referring site, country (from your time zone), browser, device type, screen size and language. Visitors whose browser sends a "Do Not Track" signal are not counted. On the free plan I use, data older than 30 days is deleted automatically.</p>
+    <p><strong>Cloudflare Web Analytics</strong> measures page views and load times without cookies. Cloudflare states that it doesn't collect visitors' personal data.</p>
 
     <h3>Hosting and delivery</h3>
-    <p>The site is hosted on <strong>GitHub Pages</strong> (GitHub, Inc.). GitHub logs the IP address of every visitor for security purposes.</p>
-    <p><strong>Cloudflare</strong> sits in front of the site as a content delivery network and security layer. It processes your IP address and basic request details to deliver pages and protect the site from abuse. If it ever needs to check that you are not a bot, Cloudflare may set a strictly necessary security cookie. The site's font is served through Cloudflare from this domain, so your browser does not contact Google Fonts.</p>
-    <p>On the main page, your browser also downloads icon files from <strong>cdnjs.cloudflare.com</strong> (Font Awesome) and <strong>unpkg.com</strong> (Ionicons). These providers receive your IP address and browser details when the files are requested.</p>
+    <p>As with any website, these services receive your IP address and basic browser details so the pages can reach you:</p>
+    <ul>
+      <li>GitHub Pages hosts the site and logs IP addresses for security</li>
+      <li>Cloudflare delivers and protects the site, and serves its font from this domain, so Google Fonts is not contacted</li>
+      <li>cdnjs.cloudflare.com and unpkg.com provide the icons on the main page</li>
+    </ul>
+    <p>I don't use this data myself.</p>
 
-    <h3>Blog theme preference</h3>
-    <p>If you use the light/dark switch on the blog, your choice is saved in your browser's local storage (key "yu-blog-theme"). It is not a cookie, it never leaves your device, and you can clear it at any time in your browser settings.</p>
-
-    <h3>Email and links</h3>
-    <p>If you email me, I use your address and message only to reply. Links to LinkedIn, GitHub, X, Credly and other sites are covered by those sites' own privacy policies once you follow them.</p>
+    <h3>Cookies</h3>
+    <p>This site sets no cookies, so there is no cookie banner. If you use the light/dark switch on the blog, your choice is saved in your browser's local storage, on your device only, and you can clear it any time. If Cloudflare ever needs to check that you're not a bot, it may set a strictly necessary security cookie.</p>
 
     <h3>Legal basis</h3>
-    <p>Legitimate interest (Article 6(1)(f) GDPR): running a secure, working website and understanding how it is used in aggregate.</p>
+    <p>Legitimate interest (Art. 6(1)(f) GDPR): keeping the site running, secure and measured in aggregate.</p>
 
-    <h3>Your rights</h3>
-    <p>Under the GDPR you can ask for access to, correction of, or erasure of your personal data, and you can object to its processing. Write to the contact address above. The analytics data is anonymous, so I usually cannot link it to you. You also have the right to complain to a supervisory authority; in Portugal that is the CNPD (Comiss&atilde;o Nacional de Prote&ccedil;&atilde;o de Dados, cnpd.pt).</p>
+    <h3>Your data</h3>
+    <p>You can contact me to access, correct or delete personal data about you, or to object to its use. You can also complain to a data protection authority.</p>
+
+    <h3>Terms of use</h3>
+    <ul>
+      <li>Content here is provided as-is for general information. It isn't professional advice, and I can't guarantee it's complete or up to date.</li>
+      <li>All text and images are &copy; Yousef Ebrahimi unless stated otherwise. Third-party logos and trademarks belong to their owners.</li>
+      <li>You're welcome to share or quote my content with a link back. Please ask before reusing it in any other way.</li>
+      <li>Links to other websites are there for convenience. I'm not responsible for their content.</li>
+      <li>I may update this page from time to time. By using the site, you accept the current version.</li>
+    </ul>
   </div>
 </div>
       </article>
