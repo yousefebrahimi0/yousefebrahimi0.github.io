@@ -11,10 +11,6 @@ layout: blog-base
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/blog/">Blog</a><span aria-hidden="true">/</span><a class="cat" href="{{ cat.url }}">{{ cat.label }}</a></nav>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.description %}<p class="dek">{{ page.description }}</p>{% endif %}
-    <div class="byline">
-      <img src="/blog/assets/avatar-96.webp" width="40" height="40" alt="">
-      <div><strong>{{ site.author.name }}</strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time> · {{ mins }} min read</div>
-    </div>
   </header>
   {% include blog/figure.html feature=true name=page.feature.name alt=page.feature.alt w=page.feature.w h=page.feature.h caption=page.feature.caption %}
 </div>
@@ -32,6 +28,7 @@ layout: blog-base
     <div class="prose">
 {{ content }}
     </div>
+    {% include blog/author-box.html mins=mins class="author-inline" %}
   </article>
   <aside class="side" aria-label="About this post">
     <div class="box"><h2>Category</h2><a class="chip" href="{{ cat.url }}">{{ cat.label }}</a></div>
@@ -42,7 +39,7 @@ layout: blog-base
         <button type="button" data-copy-link="{{ page.url | absolute_url }}">Copy link</button>
       </div>
     </div>
-    <div class="box"><h2>Written by</h2><p>{{ site.author.name }}, data analyst and SEO growth strategist in Lisbon.</p><a class="more" href="/">About me {% include blog/icons.html name="arrow" %}</a></div>
+    {% include blog/author-box.html mins=mins %}
   </aside>
 </div>
 {%- assign same = site.posts | where: "category", page.category | where_exp: "p", "p.url != page.url" -%}
