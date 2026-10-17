@@ -1,8 +1,7 @@
-{%- comment -%} "Written by" box: name, date, reading time, bio, About me. Params: mins, class {%- endcomment -%}
+{%- comment -%} "Written by" box: name, date, reading time, About me. Params: mins, class {%- endcomment -%}
 <div class="box author-box{% if include.class %} {{ include.class }}{% endif %}">
   <h2>Written by</h2>
   <p class="author-name">{{ site.author.name }}</p>
   <p class="author-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time> · {{ include.mins }} min read</p>
-  <p>{{ site.author.name }}, data analyst and SEO growth strategist in Lisbon.</p>
   <a class="more" href="/">About me {% include blog/icons.html name="arrow" %}</a>
 </div>

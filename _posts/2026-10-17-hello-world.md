@@ -27,4 +27,4 @@ I'm not planning to post every week. I'd rather publish fewer pieces that are ac
 
 ## Say hello
 
-If something here helps you, or you think I got it wrong, I'd love to hear about it. You can find me on [LinkedIn](https://www.linkedin.com/in/yousefuk/) or through the contact page on [yousef.uk](/). Thanks for stopping by, and see you in the next post.
+If something here helps you, or you think I got it wrong, I'd love to hear about it. You can find me on [LinkedIn](https://www.linkedin.com/in/yousefuk/) and [X](https://x.com/yousef__uk), or through the contact page on [yousef.uk](/). Thanks for stopping by, and see you in the next post.

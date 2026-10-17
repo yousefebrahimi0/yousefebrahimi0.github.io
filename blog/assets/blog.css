@@ -159,7 +159,7 @@ button { font: inherit; color: inherit; }
 .side .box h2, .author-inline h2 { margin: 0 0 .6rem; font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 .side .box p, .author-inline p { margin: 0 0 .6rem; }
 .author-name { color: var(--text); font-weight: 800; font-size: .98rem; margin: 0 0 .1rem !important; }
-.author-meta { margin: 0 0 .7rem !important; font-size: .82rem; font-variant-numeric: tabular-nums; }
+.author-meta { margin: 0 0 .85rem !important; font-size: .82rem; font-variant-numeric: tabular-nums; }
 .author-inline { display: none; }
 .side .more, .author-inline .more { color: var(--accent); font-weight: 700; display: inline-flex; align-items: center; gap: .35rem; }
 .chip { display: inline-block; padding: .3rem .75rem; border-radius: 999px; background: var(--accent-dim); color: var(--accent); font-size: .8rem; font-weight: 700; }
