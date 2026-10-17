@@ -1,0 +1,17 @@
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="/blog/" aria-label="Yousef Ebrahimi, Blog home">
+      <img src="/blog/assets/avatar-96.webp" width="34" height="34" alt="">
+      <span class="name">Yousef Ebrahimi</span><span class="slash" aria-hidden="true">/</span><span class="blogword">Blog</span>
+    </a>
+    <nav class="header-nav" aria-label="Blog">
+      <a href="/blog/"{% if page.url == "/blog/" or page.collection == "posts" or page.collection == "blog_categories" %} aria-current="page"{% endif %}>Articles</a>
+      <a href="/">About me</a>
+      <a class="hide-sm" href="/blog/feed.xml">RSS</a>
+    </nav>
+    <button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch colour theme" title="Switch colour theme">
+      {% include blog/icons.html name="sun" %}{% include blog/icons.html name="moon" %}
+    </button>
+  </div>
+</header>

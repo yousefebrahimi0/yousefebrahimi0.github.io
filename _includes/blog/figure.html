@@ -1,0 +1,14 @@
+{%- comment -%}
+  The only way to put an image in a post (and the feature image).
+  Files come from _tools/blog/new_post.py: /blog/images/<post slug>/<name>-{480,960,1600}.webp,
+  each capped at the source width; w/h are the largest output's pixel size.
+  Params: name (required), alt (required), w, h (required), caption, wide=true, feature=true
+{%- endcomment -%}
+{%- assign base = "/blog/images/" | append: page.slug | append: "/" | append: include.name -%}
+{%- assign w = include.w | plus: 0 -%}
+{%- capture srcset -%}{{ base }}-480.webp {{ w | at_most: 480 }}w{% if w > 480 %}, {{ base }}-960.webp {{ w | at_most: 960 }}w{% endif %}{% if w > 960 %}, {{ base }}-1600.webp {{ w | at_most: 1600 }}w{% endif %}{%- endcapture -%}
+{%- if include.feature -%}
+<figure class="feature"><img src="{{ base }}-960.webp" srcset="{{ srcset }}" sizes="(min-width: 1344px) 1216px, 100vw" width="{{ include.w }}" height="{{ include.h }}" alt="{{ include.alt | escape }}" fetchpriority="high" decoding="async">{% if include.caption and include.caption != "" %}<figcaption>{{ include.caption }}</figcaption>{% endif %}</figure>
+{%- else -%}
+<figure{% if include.wide %} class="wide"{% endif %}><img src="{{ base }}-960.webp" srcset="{{ srcset }}" sizes="(min-width: 1180px) {% if include.wide %}860px{% else %}700px{% endif %}, 100vw" width="{{ include.w }}" height="{{ include.h }}" alt="{{ include.alt | escape }}" loading="lazy" decoding="async">{% if include.caption and include.caption != "" %}<figcaption>{{ include.caption }}</figcaption>{% endif %}</figure>
+{%- endif -%}

@@ -44,3 +44,5 @@ Disallow: /
 
 User-agent: archive.org_bot
 Disallow: /
+
+Sitemap: https://yousef.uk/sitemap.xml

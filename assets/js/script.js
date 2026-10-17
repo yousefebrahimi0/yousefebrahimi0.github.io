@@ -133,19 +133,22 @@ const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
 // add event to all nav link
+// Match the clicked tab to its page by name (not by index): there are more
+// data-page sections than tabs, so index pairing broke highlighting and threw errors.
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
 
-    for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
-      } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
-      }
+    const target = this.textContent.trim().toLowerCase();
+
+    for (let j = 0; j < pages.length; j++) {
+      pages[j].classList.toggle("active", pages[j].dataset.page === target);
     }
+
+    for (let j = 0; j < navigationLinks.length; j++) {
+      navigationLinks[j].classList.toggle("active", navigationLinks[j] === this);
+    }
+
+    window.scrollTo(0, 0);
 
   });
 }

@@ -1,0 +1,50 @@
+---
+layout: blog-base
+---
+{%- comment -%} Blog home (/blog/) and every category page (/blog/category/<slug>/). {%- endcomment -%}
+{%- assign cat_slug = nil -%}
+{%- if page.collection == "blog_categories" -%}
+  {%- assign cat_slug = page.slug -%}
+  {%- assign list = site.posts | where: "category", page.slug -%}
+  {%- assign heading = page.label -%}
+{%- else -%}
+  {%- assign list = site.posts -%}
+  {%- assign heading = page.heading | default: "Latest writing" -%}
+{%- endif -%}
+{%- assign cats = site.blog_categories | sort: "order" -%}
+<div class="wrap layout">
+  <aside class="rail" aria-label="Categories">
+    <p class="rail-title">Writing</p>
+    <p class="rail-tag">{{ site.blog_tagline }}</p>
+    <ul class="cat-nav">
+      <li><a href="/blog/"{% unless cat_slug %} class="is-active" aria-current="page"{% endunless %}>All articles<span class="count">{{ site.posts | size }}</span></a></li>
+      {%- for c in cats -%}
+      {%- assign n = site.posts | where: "category", c.slug | size %}
+      <li><a href="{{ c.url }}"{% if c.slug == cat_slug %} class="is-active" aria-current="page"{% endif %}>{{ c.label }}<span class="count">{{ n }}</span></a></li>
+      {%- endfor %}
+    </ul>
+    <div class="rail-foot">
+      <a href="/blog/feed.xml">{% include blog/icons.html name="rss" %} RSS feed</a>
+      <a href="/">← Back to yousef.uk</a>
+    </div>
+  </aside>
+  <main id="main">
+    <h1 class="page-title">{{ heading }}</h1>
+    {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+    {%- if list.size == 0 %}
+    <p class="empty">Nothing here yet. The first post in {{ heading }} is on its way.</p>
+    {%- else -%}
+      {%- assign hero = list | where: "featured", true | first -%}
+      {%- unless hero -%}{%- assign hero = list | first -%}{%- endunless %}
+    {% include blog/card.html post=hero variant="hero" %}
+      {%- assign rest = list | where_exp: "p", "p.url != hero.url" -%}
+      {%- if rest.size > 0 %}
+    <div class="feed">
+      {%- for p in rest %}
+      {% include blog/card.html post=p variant="grid" %}
+      {%- endfor %}
+    </div>
+      {%- endif -%}
+    {%- endif %}
+  </main>
+</div>

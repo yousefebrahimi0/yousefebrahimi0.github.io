@@ -1,0 +1,16 @@
+{%- comment -%} One post card. Params: post, variant ("hero" | "grid") {%- endcomment -%}
+{%- assign p = include.post -%}
+{%- assign cat = site.blog_categories | where: "slug", p.category | first -%}
+{%- assign base = "/blog/images/" | append: p.slug | append: "/" | append: p.feature.name -%}
+{%- assign w = p.feature.w | plus: 0 -%}
+{%- capture mins -%}{% include blog/reading-time.html html=p.content %}{%- endcapture -%}
+{%- capture srcset -%}{{ base }}-480.webp {{ w | at_most: 480 }}w{% if w > 480 %}, {{ base }}-960.webp {{ w | at_most: 960 }}w{% endif %}{%- endcapture -%}
+<a class="{% if include.variant == 'hero' %}hero-card{% else %}card{% endif %}" href="{{ p.url }}">
+  <img class="cover" src="{{ base }}-960.webp" srcset="{{ srcset }}" sizes="{% if include.variant == 'hero' %}(min-width: 900px) 640px{% else %}(min-width: 1100px) 360px, (min-width: 620px) 50vw{% endif %}, 100vw" width="{{ p.feature.w }}" height="{{ p.feature.h }}" alt="{{ p.feature.alt | escape }}"{% if include.variant != 'hero' %} loading="lazy"{% endif %} decoding="async">
+  <div class="card-body">
+    <p class="meta"><span class="cat">{{ cat.label }}</span> · <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%-d %b %Y" }}</time> · {{ mins }} min</p>
+    {% if include.variant == 'hero' %}<h2>{{ p.title }}</h2>{% else %}<h3>{{ p.title }}</h3>{% endif %}
+    <p class="ex">{{ p.description }}</p>
+    {% if include.variant == 'hero' %}<span class="read">Read article {% include blog/icons.html name="arrow" %}</span>{% endif %}
+  </div>
+</a>

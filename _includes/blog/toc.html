@@ -1,0 +1,19 @@
+{%- comment -%}
+  Contents list built from the rendered post HTML (h2 and h3 with ids from kramdown).
+  No hand-written heading list anywhere: the headings in the post are the ToC.
+{%- endcomment -%}
+{%- assign parts = include.html | split: "<h" -%}
+<ul class="toc">
+{%- for part in parts offset: 1 -%}
+  {%- assign lvl = part | slice: 0 -%}
+  {%- if lvl == "2" or lvl == "3" -%}
+    {%- assign open_tag = part | split: ">" | first -%}
+    {%- if open_tag contains 'id="' -%}
+      {%- assign hid = open_tag | split: 'id="' | last | split: '"' | first -%}
+      {%- assign head = part | split: "</h" | first -%}
+      {%- assign label = head | remove_first: open_tag | remove_first: ">" | strip_html | strip -%}
+      <li{% if lvl == "3" %} class="sub"{% endif %}><a href="#{{ hid }}">{{ label }}</a></li>
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+</ul>

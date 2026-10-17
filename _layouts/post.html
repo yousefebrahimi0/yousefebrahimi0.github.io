@@ -1,0 +1,60 @@
+---
+layout: blog-base
+---
+{%- assign cat = site.blog_categories | where: "slug", page.category | first -%}
+{%- capture mins -%}{% include blog/reading-time.html html=content %}{%- endcapture -%}
+{%- capture toc -%}{% include blog/toc.html html=content %}{%- endcapture -%}
+{%- assign show_toc = false -%}{%- if page.toc and toc contains "<li" -%}{%- assign show_toc = true -%}{%- endif -%}
+<div class="progress" aria-hidden="true"><span></span></div>
+<div class="wrap">
+  <header class="post-head">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/blog/">Blog</a><span aria-hidden="true">/</span><a class="cat" href="{{ cat.url }}">{{ cat.label }}</a></nav>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="dek">{{ page.description }}</p>{% endif %}
+    <div class="byline">
+      <img src="/blog/assets/avatar-96.webp" width="40" height="40" alt="">
+      <div><strong>{{ site.author.name }}</strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time> · {{ mins }} min read</div>
+    </div>
+  </header>
+  {% include blog/figure.html feature=true name=page.feature.name alt=page.feature.alt w=page.feature.w h=page.feature.h caption=page.feature.caption %}
+</div>
+<div class="wrap post-layout{% unless show_toc %} no-toc{% endunless %}">
+  {%- if show_toc %}
+  <aside class="toc-rail" aria-label="On this page">
+    <p class="toc-title">On this page</p>
+    {{ toc }}
+  </aside>
+  {%- endif %}
+  <article id="main" class="post-body">
+    {%- if show_toc %}
+    <details class="toc-mobile"><summary>On this page</summary>{{ toc }}</details>
+    {%- endif %}
+    <div class="prose">
+{{ content }}
+    </div>
+  </article>
+  <aside class="side" aria-label="About this post">
+    <div class="box"><h2>Category</h2><a class="chip" href="{{ cat.url }}">{{ cat.label }}</a></div>
+    <div class="box"><h2>Share</h2>
+      <div class="share">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://x.com/intent/post?url={{ page.url | absolute_url | url_encode }}&amp;text={{ page.title | url_encode }}" target="_blank" rel="noopener">X</a>
+        <button type="button" data-copy-link="{{ page.url | absolute_url }}">Copy link</button>
+      </div>
+    </div>
+    <div class="box"><h2>Written by</h2><p>{{ site.author.name }}, data analyst and SEO growth strategist in Lisbon.</p><a class="more" href="/">About me {% include blog/icons.html name="arrow" %}</a></div>
+  </aside>
+</div>
+{%- assign same = site.posts | where: "category", page.category | where_exp: "p", "p.url != page.url" -%}
+{%- assign other = site.posts | where_exp: "p", "p.category != page.category" -%}
+{%- assign related_count = same.size | plus: other.size -%}
+{%- if related_count > 0 %}
+<section class="wrap related" aria-labelledby="related-title">
+  <h2 id="related-title">Keep reading</h2>
+  <div class="feed">
+    {%- assign shown = 0 -%}
+    {%- for p in same -%}{%- if shown < 3 %}{% include blog/card.html post=p variant="grid" %}{%- assign shown = shown | plus: 1 -%}{%- endif -%}{%- endfor -%}
+    {%- for p in other -%}{%- if shown < 3 %}{% include blog/card.html post=p variant="grid" %}{%- assign shown = shown | plus: 1 -%}{%- endif -%}{%- endfor %}
+  </div>
+</section>
+{%- endif %}

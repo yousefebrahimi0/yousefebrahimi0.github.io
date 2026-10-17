@@ -1,0 +1,56 @@
+# Jekyll config for yousef.uk (GitHub Pages builds this repo with Jekyll).
+# The CV site (index.html) has no front matter, so Jekyll copies it unchanged.
+# Everything blog-related lives under /blog/ and the underscore folders.
+title: Yousef Ebrahimi
+description: Long-form writing on data analytics, SEO, growth and creativity by Yousef Ebrahimi.
+blog_tagline: Notes on data, growth, SEO and the creative side of the work.
+url: https://yousef.uk
+baseurl: ""
+lang: en
+locale: en_GB
+timezone: Europe/Lisbon
+
+author:
+  name: Yousef Ebrahimi
+  url: https://yousef.uk/
+  same_as:
+    - https://www.linkedin.com/in/yousefuk/
+    - https://github.com/yousefebrahimi0
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+
+# Post URLs: /blog/<slug>/ (no date, so a date fix never breaks a link).
+permalink: /blog/:title/
+
+collections:
+  # One file per category. The file is the category page; this is the only category list.
+  blog_categories:
+    output: true
+    permalink: /blog/category/:name/
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post, toc: true }
+  - scope: { path: "", type: blog_categories }
+    values: { layout: blog-index }
+  - scope: { path: "assets/docs" }
+    values: { sitemap: false }
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: blog/feed.xml
+  posts_limit: 20
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
