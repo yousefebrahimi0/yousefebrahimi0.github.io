@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
-  <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 </head>
 <body>
   <!--
@@ -1879,7 +1879,7 @@ My Approach: I treat business problems like a crime scene and data like the evid
       <li>IP addresses are not collected or stored</li>
       <li>It records the page you visit, where you came from, your country (based on your time zone), browser and device type, screen size, language, time on page and how far you scroll</li>
       <li>The script and the data go to Simple Analytics' own servers (simpleanalyticscdn.com)</li>
-      <li>Visits are counted even if your browser sends a "Do Not Track" signal, because no individual is tracked</li>
+      <li>Visitors whose browser sends a "Do Not Track" signal are not counted</li>
     </ul>
     <p><strong>Cloudflare Web Analytics</strong> adds a small script that measures page views and how fast pages load. Cloudflare states that it does not collect or use visitors' personal data, and it sets no cookies here.</p>
 
@@ -1907,8 +1907,6 @@ My Approach: I treat business problems like a crime scene and data like the evid
   <script src="./assets/js/script.js?v=2"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <!-- 100% privacy-first analytics -->
-<script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <script>
 // Privacy Modal
 const modal = document.getElementById('privacyModal');
