@@ -1,48 +1,50 @@
-# Welcome to my portfolio
+# Portfolio Source Code
 
-I am **Yousef Ebrahimi**, a data and product professional based in Portugal. I work at the intersection of data analytics, digital growth, automation, and product development. I use data to find opportunities, improve processes, build useful digital experiences, and support better business decisions.
+## Overview
+I am a Data Analyst, Digital Growth Strategist, and Product Lead based in Portugal. I specialize in quantitative analytics, business intelligence dashboards, automated Python ETL pipelines, and conversion-focused web architecture.
 
-I am currently building [**GreenRah**](https://greenrah.com/), a climate-tech navigation product for cooler, safer, and more accessible urban walking. The project combines product strategy, user experience, geospatial data, weather data, accessibility, and full-stack development.
+Alongside enterprise analytics, I am the founder of [**GreenRah**](https://greenrah.com/), a climate-tech urban navigation product that optimizes pedestrian routes for shade, thermal comfort, and safety.
 
-## Education
+---
 
-- Master’s degree in **Data Science and Advanced Analytics**, with a specialisation in Business Analytics, from [NOVA IMS, Universidade Nova de Lisboa](https://www.novaims.unl.pt/), 2024.
-- Bachelor’s degree in **Industrial Engineering**, 2012.
+## Academic Foundation
+- **MSc in Data Science and Advanced Analytics** (Specialization in Business Analytics) — [NOVA IMS, Universidade Nova de Lisboa](https://www.novaims.unl.pt/) (2022 – 2024)
+- **BSc in Industrial Engineering** — Azad University (2008 – 2013)
 
-## Experience
+---
 
-I have worked in data, growth, analytics, web, and digital-product roles across technology, education, real estate, events, and digital marketing.
+## Selected Professional Experience
+- **Cisco** — *IBA Data Analyst* | Predictive lifecycle modeling, enterprise telemetry integration, and executive Tableau dashboards.
+- **VCW Lab at Nova SBE** — *Senior Digital Growth Specialist* | Technical SEO overhaul (+270% traffic growth to 38k/mo), AI keyword clustering, and multivariate A/B testing.
+- **Cisco** — *Customer Experience Business Analyst* | Salesforce CRM analytics, cohort retention modeling (87% accuracy), and customer journey automation.
+- **Nest Seekers International** — *Data Engineer & Data Collection Analyst* | Python ETL pipelines across 17 global sources, increasing data accuracy from 72% to 97%.
+- **TEDxNOVA** — *WordPress Web & Conversion Specialist* | Event registration platform, GA funnels, and conversion optimization for 4,800+ attendees.
+- **Abdin Digital Marketing Agency** — *Senior SEO Strategist & Analytics Specialist* | Managed cross-functional squads delivering $180K organic revenue and 32 top-3 Google rankings.
 
-Selected previous experience includes:
+---
 
-- **Data Analyst** at Cisco
-- **Senior Digital Growth & SEO Specialist** at Nova SBE / Value Creation Wheel
-- **Data Collection Analyst** at Nest Seekers International
-- **Web Design Specialist** at TEDxNOVA
-- **Technical SEO Manager** and **Web Designer** roles across international projects
+## Technical Competencies
 
-My work includes data analysis, Python automation, SQL, reporting, SEO, CRM workflows, business intelligence, web development, user experience, and growth strategy.
+| Domain | Tools & Technologies |
+| :--- | :--- |
+| **Analytics & Data Science** | Python (Pandas, NumPy, Scikit-learn, Matplotlib), Predictive Analytics, Statistical Modeling, Cohort Analysis |
+| **Business Intelligence** | Tableau, Microsoft Power BI, Looker Studio, Executive Dashboards, KPI Architecture |
+| **Data Engineering** | Automated ETL Pipelines, Web Scraping, Data Validation & Cleaning, Schema Design |
+| **Digital Growth & CRO** | Google Analytics 4 (GA4), Multivariate A/B Testing, Funnel Telemetry, Conversion Rate Optimization |
+| **Technical SEO** | Core Web Vitals, Schema.org Markup, Crawl Efficiency, AI Keyword Clustering, Site Architecture |
+| **CRM & Platforms** | Salesforce Analytics, HubSpot, Mailchimp, Jira, Git |
 
-## Focus areas
+---
 
-| Areas of interest |
-| --- |
-| `Data Analytics` `Python` `Data Visualisation` `Business Intelligence` `Automation` `Predictive Modelling` `Digital Growth` `Technical SEO` `CRM Automation` `Product Development` `Climate Tech` `Geospatial Data` `Urban Mobility` `Web Development` `Market Research` |
+## Featured Product: GreenRah
+[GreenRah](https://greenrah.com/) is a climate-adaptation navigation app built to safeguard pedestrians against extreme urban heat:
+- Integrates building geometry, tree canopy coverage, and solar azimuth/elevation to calculate real-time shade.
+- Synthesizes Universal Thermal Climate Index (UTCI) data and topographical elevation for comfortable, accessible routing.
+- Built from concept to live deployment with privacy-first analytics and human-centered design.
 
-## Profile
+---
 
-I enjoy working on problems where data, technology, and business goals need to connect.
-
-My approach is practical: understand the problem, collect the right data, identify the opportunity, build a useful solution, measure the result, and improve it. I am comfortable working with technical teams, business stakeholders, and product users. I am especially interested in work related to data-driven products, climate adaptation, urban mobility, automation, digital transformation, and user-centred technology.
-
-## Reach me
-
-#### Website & LinkedIn
-
-<a href="https://yousef.uk/" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Yousef.uk-Visit-1F6B4F?style=flat-square" alt="Visit Yousef.uk">
-</a>
- 
-<a href="https://www.linkedin.com/in/yousefuk" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/LinkedIn-yousefuk-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="Yousef on LinkedIn">
-</a>
+## Contact
+- **Website:** [yousef.uk](https://yousef.uk)
+- **LinkedIn:** [linkedin.com/in/yousefebrahimi0](https://www.linkedin.com/in/yousefebrahimi0/)
+- **Certifications:** [Credly Profile](https://www.credly.com/users/yousefebrahimi0/)
