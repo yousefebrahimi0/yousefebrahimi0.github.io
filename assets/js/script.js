@@ -138,7 +138,8 @@ const pages = document.querySelectorAll("[data-page]");
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
 
-    const target = this.textContent.trim().toLowerCase();
+    // data-nav-target lets a tab label differ from its page name (e.g. "CV - Resume" -> cv)
+    const target = (this.dataset.navTarget || this.textContent.trim()).toLowerCase();
 
     for (let j = 0; j < pages.length; j++) {
       pages[j].classList.toggle("active", pages[j].dataset.page === target);
